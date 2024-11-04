@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 한글 Hanwha */
+@font-face {
+   font-family: 'HanwhaGothic';
+   src: url(../font/04HanwhaGothicB.ttf);
+   font-weight: 800;
+}
+@font-face {
+   font-family: 'HanwhaGothic';
+   src: url(../font/05HanwhaGothicR.ttf);
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'HanwhaGothic';
+   src: url(../font/06HanwhaGothicL.ttf);
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'HanwhaGothic';
+   src: url(../font/07HanwhaGothicEL.ttf);
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'HanwhaGothic';
+   src: url(../font/08HanwhaGothicT.ttf);
+   /* font-weight: 300; */
+}
+
+
+@font-face {
+   font-family: 'Pretendard-Bold';
+   src: url(../font/Pretendard-Bold.otf);
+   font-weight: 700;
+}
+@font-face {
+   font-family: 'Pretendard-ExtraBold';
+   src: url(../font/Pretendard-ExtraBold.otf);
+}
+@font-face {
+   font-family: 'Pretendard-ExtraLight';
+   src: url(../font/Pretendard-ExtraLight.otf);
+}
+@font-face {
+   font-family: 'Pretendard-Light';
+   src: url(../font/Pretendard-Light.otf);
+}
+@font-face {
+   font-family: 'Pretendard-Medium';
+   src: url(../font/Pretendard-Medium.otf);
+}
+@font-face {
+   font-family: 'Pretendard-Regular';
+   src: url(../font/Pretendard-Regular.otf);
+}
+@font-face {
+   font-family: 'Pretendard-SemiBold';
+   src: url(../font/Pretendard-SemiBold.otf);
+   font-weight: 200;
+}
+@font-face {
+   font-family: 'Pretendard-Thin';
+   src: url(../font/Pretendard-Thin.otf);
+   font-weight: 100;
+}

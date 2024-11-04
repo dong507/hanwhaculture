@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="agb08nvtva">
+            <path data-name="사각형 9966" style="fill:#fff" d="M0 0h16v16H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="down_bk_16px" transform="rotate(90 8 8)" style="clip-path:url(#agb08nvtva)">
+        <path data-name="합치기 1 - 윤곽선" d="m10.837 6.988 1.06 1.06-4.949 4.95-1.06-1.06 3.888-3.89L5.887 4.16 6.948 3.1l3.89 3.889z"/>
+    </g>
+</svg>

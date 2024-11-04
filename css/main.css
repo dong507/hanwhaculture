@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+* {
+   margin: 0;
+   padding: 0;
+   color: inherit;
+   font: inherit;
+}
+body, header {
+   font-family: 'HanwhaGothic';
+   color: #111111;
+}
+
+/* default */
+:root {}
+
+h2 {
+   text-align: center;
+   margin-bottom: 80px;
+   font-size: 40px;font-weight: 700;
+}
+
+/* header */
+.header_menu {height: 70px;}
+.header_menu h1 img {
+   display: flex;
+   margin: 30px 40px;
+   object-fit: cover;
+   width: 20%;
+}
+.header_menu .header_txt {display: none;}
+
+.gnb {
+   display: flex;
+   justify-content: left;
+   gap: 20px;
+   transform: translate(28%, -300%);
+}
+.gnb li {font-size: 12px;font-weight: bold;}
+.gnb_wrap {display: none;}
+.gnb .gnb_wrap li a {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   margin-top: 10px;
+   padding-right: 40px;
+}
+
+.language {
+   display: flex;
+   justify-content: center;
+   transform: translate(120em, -210%);
+   gap: 10px;
+   width: 80px;
+   padding: 8px;
+   border: 1px solid #9f9f9f;
+   border-radius: 15px;
+   font-size: 11px;font-weight: bold;
+}
+
+/* business */
+.business {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   width: 75%;
+}
+.business .item .title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;font-weight: 400;
+   margin: 20px;
+}
+.item .title_wrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 35px;font-weight: bold;
+   margin-bottom: 30px;
+}
+.item_content .it_cont_wrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+.item_content .it_cont_wrap li img {
+   width: 400px;height: 400px;
+   border-radius: 8px;
+   object-fit: cover;
+}
+.it_cont_wrap .centre {transform: translateY(4%);}
+.it_cont_wrap .centre .centre_txt {transform: translateY(-150%);}
+.it_cont_wrap p {
+   position: relative;
+   text-align: center;
+   transform: translateY(-200%);
+   color: #FFF;
+   font-size: 28px;font-weight: 700;
+}
+
+/* Mission */
+.mission {
+   text-align: center;
+   margin: 0;
+   padding: 50px 20px;
+}
+.mission_wrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 180px 10px;
+}
+
+.txt_box .txt_em {
+   font-size: 48px;
+   font-weight: bold;
+   line-height: 1.2;
+}
+.txt_box .txt_em img {
+   position: absolute;
+   transform: translate(21.5em, 20px);
+   width: 200px; /*이미지크기*/
+   vertical-align: bottom;
+}
+.txt_em span {
+   display: block;
+   font-family: 'Pretendard-Black';
+   font-size: 80px;font-weight: 700;
+
+}
+.txt_sub {
+   transform: translate(25%, -65px);
+   color: #333;
+   line-height: 1.5;
+   font-family: 'Pretendard-Thin';
+   font-size: 16px;font-weight: 200;
+}
+
+
+/* CORE VALUES */
+.values {
+   text-align: center;
+   padding: 190px 0;
+}
+
+.val_content_wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   width: 1100px;
+}
+.val_cont img {
+   width: 266px;height: 266px;
+}
+.val_cont_list {
+   font-size: 32px;font-weight: 500;
+   text-align: center;margin-top: 30px;margin-bottom: 30px;
+}
+.val_cont_list_warp {
+   font-size: 18px;font-weight: 500;
+   text-align: center;
+}
+
+/* NOW */
+
+.now {
+   padding: 190px 0;
+}
+.now_wrap {
+   display: flex;justify-content: center;
+   gap: 50px;
+}
+.now_wrap .now_box img {
+   margin-top: 20px;
+   width: 360px;height: 320px;
+}
+.now_wrap .now_box .box_wrap {
+   font-size: 18px;font-weight: 500;
+   margin-top: 30px;margin-bottom: 25px;
+}
+.box_wrap .box_wrapper {
+   font-size: 15px;
+   color: #666666;
+}
+
+/* FOOTER */
+.contact {height: 1000px;}
+.title_list {
+   display: flex;justify-content: space-between;
+   margin: 60px;
+}
+.title {
+   font-size: 80px;font-weight: 600;
+   margin: 0;
+}
+
+.title_content span {
+   display: grid;grid-template-rows: 10px 15px;
+   text-align: right;gap: 10px;
+   font-size: 18px;
+}
+
+
+.title_content_warp {
+   display: flex;justify-content: center; align-items: center;
+   border: 1px solid #000;border-radius: 50px;
+   width: 80px;height: 80px;
+}
+
+
+.footer .footer_wrap img {
+   position: static;padding: 0px;
+   width: 1300px;height: 34px;
+}
+
+.footer_related img {
+   width: 98px;height: 30px;
+}
